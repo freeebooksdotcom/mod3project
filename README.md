@@ -11,13 +11,13 @@ Online dating is a $4 billion dollar industry. However many dating apps rely on 
 ## Data
 Produced by the Columbia Business School from 2002-2004 for the study "Gender Differences in Mate Selection: Evidence From a Speed Dating Experiment," the data represents over four thousand unique four-minute dates that took place over twenty different speed dating events after which they would decide on whether they wanted to see the other person again. If both participants decided they wanted to see the other again, it would be a match. 
 
-At the beginning of the event, they distributed 100 points across six attributes to describe their perfect mate. The six attributes were attractiveness, sincerity, intelligence, fun, ambition, and shared interests.
+At the beginning of the event, they distributed 100 points across six attributes to describe their perfect mate. The six attributes were attractiveness, sincerity, intelligence, fun, ambition, and shared interests. They were then asked to predict how the opposite gender would distribute 100 points across these six attributes. Finally, they evaluated themselves on a scale from 1 to 10 on five of the six attributes. 
 
-Though data was gathered at different points in the night and for three weeks after each event, the model just used data from the beginning of the night and the decision of both candidates as its target.
+Though data was gathered at different points in the night and for three weeks after each event, the model just used data from the beginning of the night and both candidates saying yes as its target.
 
 ## EDA
 
-Part of the EDA was seeing how participants, broken up by gender, evaluated themselves and each other and how this related to their match rate during the night.
+As part of the EDA I wanted to see the proportion of matches according to their self-evaluations.
 ![Image](images/attractionscores.png?raw=true)
 Attractiveness was one of the most important attributes.
 Two hypothesis tests were carried on both gender's predictions of how important attractiveness was to the opposite gender. In both cases the null hypothesis was rejected. However, it should be considered that the importance of attraction was made as what was important to each individual while the predictions pertained to group trends.
